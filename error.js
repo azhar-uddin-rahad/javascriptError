@@ -16,8 +16,13 @@ const arr=[1,2,3];
 // syntaxError
 let num=10;
 //when you cannot fallow a javaScript coding syntax then show a syntax error
-if(num /< 1){
-    console.log("hello")
-}
+// if(num /< 1){
+//     console.log("hello")
+// }
+
+// TypeError 
+//when I find something on undefined value this time it's show a Type error 
+const student={}
+console.log(student.address.city)
 
 
