@@ -10,6 +10,14 @@ const arr=[1,2,3];
 // when variable not declare but can access this not declarable variable this thime show a referenceError 
 
 //money is not declare
-console.log(money)
+//console.log(money)
+
+
+// syntaxError
+let num=10;
+//when you cannot fallow a javaScript coding syntax then show a syntax error
+if(num /< 1){
+    console.log("hello")
+}
 
 
